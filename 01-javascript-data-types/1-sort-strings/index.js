@@ -6,4 +6,4 @@
  */
 export const sortStrings = (arr = [], param = 'asc') => {
 
-}
+};

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+
+<body>
+  <div id="root">append component here</div>
+</body>
+
+<script>
+  class Component {
+    static title = "this is my component";
+
+    constructor() {
+      this.color = "green";
+      console.error(Component.title);
+    }
+
+    render() {
+      console.error("render");
+    }
+  }
+
+  const obj = new Component();
+  // ...
+
+  console.error(Component.foo);
+</script>
