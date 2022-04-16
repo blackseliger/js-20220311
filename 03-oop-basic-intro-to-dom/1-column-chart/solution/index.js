@@ -61,7 +61,6 @@ export default class ColumnChart {
       result[name] = subElement;
     }
 
-    console.log({result});
     return result;
   }
 
@@ -89,7 +88,7 @@ export default class ColumnChart {
   update(data) {
     this.data = data;
 
-    this.subElements.body.innerHTML = this.getColumnBody(data);
+    this.subElements.body.innerHTML = this.getColumnBody();
   }
 
   remove() {

@@ -1,4 +1,3 @@
-/*
 export default async function(path, match) {
   const { default: Page } = await import(`./10-webpack-part-1/pages/${path}`);
 
@@ -11,4 +10,3 @@ export default async function(path, match) {
 
   return page;
 }
-*/

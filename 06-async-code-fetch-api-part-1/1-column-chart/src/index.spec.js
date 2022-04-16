@@ -1,4 +1,4 @@
-import ColumnChart from '../solution';
+import ColumnChart from '../solution/index.js';
 
 import ordersData from "./__mocks__/orders-data.js";
 
@@ -62,6 +62,8 @@ describe('async-code-fetch-api-part-1/column-chart', () => {
     columnChart = new ColumnChart({ link });
 
     const columnLink = columnChart.element.querySelector('.column-chart__link');
+
+    document.body.append(columnChart.element);
 
     expect(columnLink).toBeVisible();
   });
