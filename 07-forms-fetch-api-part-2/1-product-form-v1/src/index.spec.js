@@ -1,4 +1,4 @@
-import ProductForm from '../solution';
+import ProductForm from './index.js';
 
 import productData from './__mocks__/product-data.js';
 import categoriesData from './__mocks__/categories-data.js';
